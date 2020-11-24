@@ -1,3 +1,4 @@
+/*
 //DZ-2 (17.11.2020)
 let data = +prompt('Введите количество ступень : ');
  data = !isNaN(data) && data > 0 && data < 100 ? data : 5 ;
@@ -100,3 +101,22 @@ for(let i = 0; i < minloop; i++){
     }
     
 }
+
+/* ----------ДЗ-1-(20.11.2020)
+
+let name = prompt("Ведите ваше имя: ");
+let age = +prompt("Ведите ваш год рождения: ");
+let currentYear = +prompt("Введите нынешный год: ");
+
+let userName = function(name){
+    return name;
+}
+let userAge = function(){
+    let currentUserAge = currentYear - age;
+    return currentUserAge;
+}
+let userNameX = userName(name);
+let userCurrentAge = userAge() ;
+alert("Привет " + userNameX + " ." + ' Вам ' + userCurrentAge + ' лет.')
+
+*/
